@@ -574,6 +574,10 @@ const Deposit = () => {
                             border: "solid var(--input-border-color)",
                             borderRadius: "8px",
                             wordBreak: "break-all",
+                            textAlign: "center",
+                            display: "flex",
+                            justifyContent: "space-between",
+                            alignItems: "center"
                         }}
                     >
                         {accountDetails[selectedMethod].number}
