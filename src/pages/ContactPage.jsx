@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <div>
       <Header />
@@ -13,40 +13,31 @@ export default function Contact() {
         <Typography variant="h3" align="center" gutterBottom>
           Contact Us
         </Typography>
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h5" align="center" gutterBottom>
           We'd love to hear from you!
         </Typography>
         <Box sx={{ mt: 4, textAlign: "center" }}>
           <Typography variant="body1" paragraph>
-            If you have any questions, feedback, or inquiries, feel free to
-            reach out to us through any of the platforms below:
+            If you have any questions or feedback, feel free to reach out to us via email:
           </Typography>
           <Box sx={{ mt: 2 }}>
             <Button
               variant="contained"
               color="primary"
-              href="mailto:goldbluecorpsol@gmail.com"
+              href="mailto:capitaltrade818@gmail.com"
               target="_blank"
-              sx={{ mx: 1 }}
+              sx={{ mx: 2 }}
             >
-              Email
-            </Button>
-            <Button
-              variant="contained"
-              color="primary"
-              href="https://t.me/+639505832752" // Replace with the actual phone number or username
-              target="_blank"
-              sx={{ mx: 1 }}
-            >
-              Telegram
+              Email Us
             </Button>
           </Box>
           <Typography variant="body1" sx={{ mt: 4 }}>
-            We're here to assist you, and we aim to respond as quickly as
-            possible!
+            We're here to assist you, and we aim to respond as quickly as possible!
           </Typography>
         </Box>
       </Container>
     </div>
   );
-}
+};
+
+export default Contact;
