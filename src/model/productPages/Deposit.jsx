@@ -483,7 +483,7 @@ const Deposit = () => {
         },
         trx: {
             name: "TRX Wallet",
-            number: "TFAd7uRuzcBVJ1nb7muWrM8RKibodCYsJk",
+            number: "TNLjPvxpZF91trwKfwDVqux95e8xcRDkee",
             label: "TRX Wallet Address"
         }
     };
