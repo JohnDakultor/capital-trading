@@ -65,7 +65,7 @@ export default function LoginPage() {
         localStorage.setItem('jwt', res.data.token); // Save JWT in local storage
         auth.login(res.data.result); // Log in with user sent from Express
   
-        if (email === 'goldbluecorpsol@gmail.com') {
+        if (email === 'tradingcapital818@gmail.com') {
           navigate('/admin', { replace: true }); // Redirect to admin panel
         } else {
           navigate('/dashboard', { replace: true }); // Redirect to user dashboard
