@@ -15,7 +15,7 @@ import Axios from "axios";
 import { useAuth } from "../services/Authentication";
 import HomeIcon from "@mui/icons-material/Home"; // Replace with your icon or image path
 
-import goldBlue from "../assets/goldblue-icon(2).png";
+import ct from "../assets/ct.png";
 
 
 export default function LoginPage() {
@@ -97,7 +97,7 @@ export default function LoginPage() {
         onClick={() => navigate('/')}
       >
         <img
-          src={goldBlue}
+          src={ct}
           alt="GoldBlue"
           style={{ height: "50px" }}
         />

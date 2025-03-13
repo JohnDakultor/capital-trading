@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 import axios from 'axios';
 
-import goldBlueLogo from '../../assets/goldblue-icon(2).png';
+import ct from '../../assets/ct.png';
 
 const drawerWidth = 240;
 
@@ -82,7 +82,7 @@ export default function ProductDrawer() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false)
   const [user, setUser] = useState('');
 
-  const baseURL = "https://gold-blue-backend-zk1834563cke-84ddfc10b917.herokuapp.com/api";
+  const baseURL = "https://capital-trading-4fa9bbae4d39.herokuapp.com/api";
   
   const auth = useAuth()
 
@@ -171,13 +171,13 @@ export default function ProductDrawer() {
             <MenuIcon />
           </IconButton>
           <img
-            src={goldBlueLogo}
+            src={ct}
             style={{ height: 40}}
             alt="logo-goldblue"
             
             />
           <Typography variant="h6" noWrap component="div">
-            GrabBridge
+            Capital Trading
           </Typography>
         </Toolbar>
       </AppBar>
