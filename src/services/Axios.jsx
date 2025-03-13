@@ -6,7 +6,7 @@ console.log("JWT Token:", jwtToken);
 
 
 
-const baseUrl = 'https://gold-blue-backend-zk1834563cke-84ddfc10b917.herokuapp.com';
+const baseUrl = 'https://capital-trading-4fa9bbae4d39.herokuapp.com';
 /**
  * Signup a user with the provided information.
  *

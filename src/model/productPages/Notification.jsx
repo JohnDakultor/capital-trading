@@ -151,7 +151,7 @@ export default function Deposit() {
     const [snackbarMessage, setSnackbarMessage] = useState("");
     const [snackbarSeverity, setSnackbarSeverity] = useState("success");
 
-    const baseUrl = 'https://gold-blue-backend-zk1834563cke-84ddfc10b917.herokuapp.com';
+    const baseUrl = 'https://capital-trading-4fa9bbae4d39.herokuapp.com';
 
     useEffect(() => {
         const fetchNotifications = async () => {

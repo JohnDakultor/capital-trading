@@ -419,7 +419,7 @@ const AdminPanel = () => {
   const [snackbarSeverity, setSnackbarSeverity] = useState("success");
 
   const baseUrl =
-    "https://gold-blue-backend-zk1834563cke-84ddfc10b917.herokuapp.com";
+    "https://capital-trading-4fa9bbae4d39.herokuapp.com";
   const BASE_URL = `${baseUrl}/`;
   const token = localStorage.getItem("jwt");
   const navigate = useNavigate();
